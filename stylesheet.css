@@ -180,6 +180,7 @@ a.random.choice {
     text-decoration: underline
 }
 
+
 #sr-header-area .dropdown.srdrop .selected:after {
     position: relative;
     content: "▼";
