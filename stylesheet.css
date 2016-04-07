@@ -1906,7 +1906,7 @@ div.titlebox span.number:after {
 .morelink {
     position: absolute;
     top: 442px;
-    background-color: #0079d3;
+    background-color: #990099;
     background-image: none!important;
     width: 152px;
     height: 36px;
@@ -1920,7 +1920,7 @@ div.titlebox span.number:after {
 }
 
 .morelink:hover {
-    background-color: #158be2;
+    background-color: #CE26CE;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2)
 }
 
