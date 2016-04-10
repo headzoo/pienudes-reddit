@@ -3226,7 +3226,7 @@ body.comments-page > .content {
 .flair:before {
     margin-right: 3px;
     height: auto;
-    content: "- ";
+    content: "";
     margin-left: 4px
 }
 
@@ -3903,4 +3903,46 @@ body.other-discussions-page>.content,
 
 .side .usertext-body .md p strong {
     font-size: 22px;
+}
+
+.flair {
+    background: url(%%flairs%%) no-repeat -9999px;
+    border: 0;
+    padding: 0;
+}
+
+.flair-az {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -10px;
+}
+
+.flair-pancake {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -60px;
+}
+
+.flair-pie {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -110px;
+}
+
+.flair-ramen {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -160px;
+}
+
+.flair-taeyang {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -210px;
+}
+
+.flair-vflower {
+    width: 30px;
+    height: 30px;
+    background-position: -10px -260px;
 }
