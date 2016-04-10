@@ -378,7 +378,7 @@ body:not(.loggedin) #header-bottom-right {
     font-weight: 700;
     font-family: Lato, arial, sans-serif;
     font-variant: normal;
-    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.2)
+    text-shadow: 1px 1px 12px rgba(0,0,0,1.0);
 }
 
 #header .pagename a:after {
