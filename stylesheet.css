@@ -1695,7 +1695,7 @@ div.titlebox span.number:after {
 }
 
 .titlebox .users-online .number:after {
-    content: " listening now"
+    content: ",000 listening now"
 }
 
 .titlelebox .word {
