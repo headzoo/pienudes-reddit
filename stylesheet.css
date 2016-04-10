@@ -1677,7 +1677,7 @@ div.titlebox span.word {
 }
 
 div.titlebox span.number:after {
-    content: ",000,000 pie nudists"
+    content: ",314,159 pie nudists"
 }
 
 .titlebox .users-online .number {
@@ -1695,7 +1695,7 @@ div.titlebox span.number:after {
 }
 
 .titlebox .users-online .number:after {
-    content: ",000 listening now"
+    content: ",314 listening now"
 }
 
 .titlelebox .word {
