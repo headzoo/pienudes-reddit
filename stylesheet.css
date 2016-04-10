@@ -385,6 +385,10 @@ body:not(.loggedin) #header-bottom-right {
     content: ".com";
 }
 
+#header .pagename a:hover {
+    text-decoration: none;
+}
+
 #header-bottom-left {
     position: absolute;
     top: 58px;
