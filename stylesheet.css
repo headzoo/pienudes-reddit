@@ -381,6 +381,10 @@ body:not(.loggedin) #header-bottom-right {
     text-shadow: 0 1px 12px rgba(0, 0, 0, 0.2)
 }
 
+#header .pagename a:after {
+    content: ".com";
+}
+
 #header-bottom-left {
     position: absolute;
     top: 58px;
@@ -2750,6 +2754,10 @@ body.comments-page > .content {
 
 .search-page #header .pagename a {
     display: none
+}
+
+.search-page #header .pagename a:after {
+    content: ".com";
 }
 
 .search-page #header {
