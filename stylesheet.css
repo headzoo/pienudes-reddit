@@ -17,8 +17,12 @@ Find out more on /r/Naut
 
 body {
     overflow-x: hidden;
-    background-color: #eee;
+    background-color: #000;
     min-width: 920px
+}
+
+body>.content {
+    color: #d6d6d6;
 }
 
 a {
@@ -108,7 +112,7 @@ button:active {
 
 #header {
     margin: 0;
-    height: 154px;
+    height: 200px;
     border: none;
     background-color: #30333A;
     background-image: url(%%headerimg%%);
@@ -391,7 +395,7 @@ body:not(.loggedin) #header-bottom-right {
 
 #header-bottom-left {
     position: absolute;
-    top: 58px;
+    top: 105px;
     left: 16px;
     right: 384px
 }
@@ -639,7 +643,7 @@ body .content .sitetable .link .title a:hover {
 .thing .title.click,
 .thing .title.loggedin,
 .thing .title {
-    color: #24a0ed
+    color: #D6D6D6
 }
 
 .content .thing .title:visited,
@@ -787,13 +791,13 @@ body .content .sitetable .link .title a:hover {
 
 .entry .tagline {
     margin-top: 3px;
-    color: #98abba;
+    color: #FFF;
     font-size: 12px;
     font-family: arial, sans-serif
 }
 
 .link .entry .tagline a {
-    color: #292f34
+    color: #d6d6d6;
 }
 
 .link .entry .tagline:first-letter {
@@ -1677,7 +1681,8 @@ div.titlebox span.word {
 }
 
 .titlebox .users-online {
-    display: inline
+    display: inline;
+    color: #d6d6d6;
 }
 
 .titlebox .users-online:before {
@@ -2017,7 +2022,7 @@ div.titlebox span.number:after {
     display: block;
     font-size: 18px;
     line-height: 24px;
-    color: #292f34;
+    color: #D6D6D6;
     font-family: verdana, arial, helvetica, sans-serif;
     margin: 8px 0
 }
@@ -2060,6 +2065,10 @@ div.titlebox span.number:after {
     top: -3px
 }
 
+.titlebox form.toggle, .leavemoderator {
+    background-color: #1C1E22;
+}
+
 .side .md .-blocks,
 .side .md .-lists,
 .side .md pre,
@@ -2069,7 +2078,7 @@ div.titlebox span.number:after {
 .side .md ul,
 .side .md ol {
     font-family: Lato, arial, sans-serif;
-    color: #292f34;
+    color: #D6D6D6;
     line-height: 1.45;
     font-size: 13px
 }
@@ -3150,7 +3159,7 @@ body.comments-page > .content {
 }
 
 .tabpane-content .tagline a {
-    color: #292f34
+    color: #D6D6D6
 }
 
 .tabpane-content .thing .title {
@@ -3652,7 +3661,7 @@ body.other-discussions-page>.content,
 .linefield,
 .submit-page .roundfield,
 .login-form-side {
-    background-color: #fff;
+    background-color: #1C1E22;
     padding: 16px;
     border-radius: 2px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14)
