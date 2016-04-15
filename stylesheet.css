@@ -83,7 +83,7 @@ body .btn,
 body button {
     margin: 4px 16px 4px 0;
     padding: 2px 18px;
-    background-color: #0079d3;
+    background-color: #CE26CE;
     border: none;
     border-radius: 2px;
     color: #fff;
@@ -99,7 +99,7 @@ body button {
 .btn:hover,
 button:hover {
     color: #fff;
-    background-color: #158be2;
+    background-color: #d627d6;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2)
 }
 
@@ -1360,6 +1360,14 @@ div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
     border-left: 3px solid #C2C2C2
 }
 
+.RES-keyNav-activeElement, .RES-keyNav-activeElement .md-container {
+    background-color: #1C1E22 !important;
+}
+
+.link .usertext .md {
+    color: #FFF;
+}
+
 div.commentarea div.RES-keyNav-activeElement .md {
     background-color: transparent!important
 }
@@ -2314,10 +2322,16 @@ body.comments-page > .content {
 }
 
 .commentarea>.usertext {
-    background-color: #FAFAFA!important;
+    background-color: #1C1E22!important;
     margin: -58px 0 16px;
     padding: 64px 16px 16px!important;
     overflow: visible
+}
+
+.new-comment .usertext-body {
+    background-color: #1C1E22;
+    color: #FFF;
+    border: none;
 }
 
 .usertext button {
@@ -2485,7 +2499,7 @@ body.comments-page > .content {
 }
 
 .comment .usertext .md {
-    color: #292f34
+    color: #FFF;
 }
 
 .md a {
@@ -2664,7 +2678,7 @@ body.comments-page > .content {
     position: relative;
     padding: 0;
     border: none;
-    background-color: #0079D3;
+    background-color: #CE26CE;
     border-radius: 2px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14)
 }
@@ -2707,7 +2721,7 @@ body.comments-page > .content {
 }
 
 .submit-page .roundfield .title {
-    color: #292f34;
+    color: #FFF;
     text-transform: capitalize
 }
 
@@ -2733,7 +2747,7 @@ body.comments-page > .content {
 }
 
 .content.submit .info-notice {
-    background-color: #edf1f3;
+    background-color: #000;
     padding: 16px;
     border: none;
     margin-bottom: 0
