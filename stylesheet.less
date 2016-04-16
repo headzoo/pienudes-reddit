@@ -7,6 +7,7 @@ Details: This is a custom template made by /u/Cryptonaut
 Find out more on /r/Naut
 -------------------------------------------------------------------------- */
 @color-widget-background: #142C46;
+@color-button-background: #4373A9;
 
 *,
 :before,
@@ -84,7 +85,7 @@ body .btn,
 body button {
   margin: 4px 16px 4px 0;
   padding: 2px 18px;
-  background-color: #CE26CE;
+  background-color: @color-button-background;
   border: none;
   border-radius: 2px;
   color: #fff;
@@ -100,14 +101,14 @@ body button {
 .btn:hover,
 button:hover {
   color: #fff;
-  background-color: #d627d6;
+  background-color: lighten(@color-button-background, 10%);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
 }
 
 .btn:active,
 button:active {
   color: #fff;
-  background-color: #0066b2;
+  background-color: lighten(@color-button-background, 10%);
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
 }
 
@@ -1931,7 +1932,7 @@ div.titlebox span.number:after {
 .morelink {
   position: absolute;
   top: 442px;
-  background-color: #990099;
+  background-color: @color-button-background;
   background-image: none!important;
   width: 152px;
   height: 36px;
@@ -1945,12 +1946,12 @@ div.titlebox span.number:after {
 }
 
 .morelink:hover {
-  background-color: #CE26CE;
+  background-color: lighten(@color-button-background, 10%);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);
 }
 
 .morelink:active {
-  background-color: #0066b2;
+  background-color: lighten(@color-button-background, 10%);
   box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, .12), 0 0 4px 0 rgba(0, 0, 0, .12);
 }
 
@@ -2682,7 +2683,7 @@ body.comments-page > .content {
   position: relative;
   padding: 0;
   border: none;
-  background-color: #CE26CE;
+  background-color: @color-button-background;
   border-radius: 2px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }

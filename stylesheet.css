@@ -72,7 +72,7 @@ body .btn,
 body button {
   margin: 4px 16px 4px 0;
   padding: 2px 18px;
-  background-color: #CE26CE;
+  background-color: #4373a9;
   border: none;
   border-radius: 2px;
   color: #fff;
@@ -87,13 +87,13 @@ body button {
 .btn:hover,
 button:hover {
   color: #fff;
-  background-color: #d627d6;
+  background-color: #5f8dc0;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 .btn:active,
 button:active {
   color: #fff;
-  background-color: #0066b2;
+  background-color: #5f8dc0;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12);
 }
 #header {
@@ -1615,7 +1615,7 @@ div.titlebox span.number:after {
 .morelink {
   position: absolute;
   top: 442px;
-  background-color: #990099;
+  background-color: #4373a9;
   background-image: none!important;
   width: 152px;
   height: 36px;
@@ -1628,11 +1628,11 @@ div.titlebox span.number:after {
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .morelink:hover {
-  background-color: #CE26CE;
+  background-color: #5f8dc0;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
 .morelink:active {
-  background-color: #0066b2;
+  background-color: #5f8dc0;
   box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.12), 0 0 4px 0 rgba(0, 0, 0, 0.12);
 }
 .sidebox.submit.submit-text .morelink {
@@ -2238,7 +2238,7 @@ body.comments-page > .content {
   position: relative;
   padding: 0;
   border: none;
-  background-color: #CE26CE;
+  background-color: #4373a9;
   border-radius: 2px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
