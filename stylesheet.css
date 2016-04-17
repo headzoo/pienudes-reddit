@@ -1150,7 +1150,10 @@ div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
   color: #000 !important;
 }
 .link .usertext .md {
-  color: #FFF;
+  color: #FFF !important;
+}
+.comment .usertext .md {
+  color: #FFF !important;
 }
 div.commentarea div.RES-keyNav-activeElement .md {
   background-color: transparent!important;
@@ -1888,7 +1891,7 @@ body.comments-page > .content {
   padding-left: 16px;
 }
 .commentarea .panestack-title .title {
-  color: #4D5763;
+  color: #FFF;
 }
 .commentarea .menuarea {
   margin: 0;
@@ -1915,6 +1918,9 @@ body.comments-page > .content {
 }
 .commentarea .menuarea .dropdown.lightdrop .selected:after {
   content: "▼";
+}
+.usertext-body.may-blank-within.md-container {
+  background-color: #142c46 !important;
 }
 .drop-choices.lightdrop {
   border: none;
@@ -2053,7 +2059,7 @@ body.comments-page > .content {
   background-color: rgba(0, 0, 0, 0.04);
 }
 .comment .author {
-  color: #292f34;
+  color: #FFF;
   margin-right: 0;
   font-weight: 700;
 }
@@ -2908,6 +2914,13 @@ html.res-commentBoxes .comment {
 .res .commentarea .thing {
   border: none!important;
   border-radius: 2px!important;
+  background-color: #142c46 !important;
+}
+.res-commentBoxes .comment .comment,
+.res-commentBoxes .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment,
+.res-commentBoxes .comment .comment .comment .comment .comment {
+  background-color: #142c46 !important;
 }
 .res .titlebox .tagline {
   margin-top: 6px;
